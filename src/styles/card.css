@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: "NEOPIXEL";
     src: url("public/NEOPIXEL-Regular.otf");
@@ -8,9 +9,9 @@
     padding: 0;
 }
 card {
+    background-color: blue;
     border-radius: 24px;
     box-shadow: -10px 10px 40px 0px rgba(0, 0, 0, 0.30), -3px 3px 14px 0px rgba(0, 0, 0, 0.09), -1px 1px 5px 0px rgba(0, 0, 0, 0.04), -0.5px 0.5px 1.8px 0px rgba(0, 0, 0, 0.01);
-    background-image: url(Astro.props.image);
 }
 h3 {
     font-family: NEOPIXEL;
