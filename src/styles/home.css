@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "NEOPIXEL";
+    src: url("public/NEOPIXEL-Regular.otf");
+    font-weight: 400;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+body {
+    background: #F4F4F4;
+    color: #1E273F;
+    font-family: "Space Grotesk", sans-serif;
+   margin: 0 auto;
+   padding: 32px 80px 246px 80px;
+    width: 100%;
+    align: center;
+    max-width: 1120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1 {
+font-family: NEOPIXEL;
+font-size: 160px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+h2 {
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.intro {
+    max-width: 632px;
+  
+}
+.maninProjects {
+   display: grid;
+width: 1120px;
+height: 2000px;
+row-gap: 30px;
+column-gap: 30px;
+grid-template-rows: repeat(6, minmax(0, 1fr));
+grid-template-columns: repeat(6, minmax(0, 1fr));
+}

@@ -1,16 +1,28 @@
 ---
-
+import '../styles/home.css'
+import '../styles/card.css'
+import projectCard from '../components/card.astro'
 ---
 
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>ABN portfolio</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<div class="intro">
+		<h1>Hola,</h1>
+		<h2>soy Alfonso Bey, diseñador de Producto
+Actualmente estoy creando productos y servicios digitales para Andbank.</h2>
+		</div>
+		<div class="mainProjects">
+<projectCard image = "/Users/user/portfolio/Users/user/portfolio/public/andbank.png" title = "Andbank" link= "https://www.andbank.com/es/" />
+		</div>
 	</body>
 </html>
