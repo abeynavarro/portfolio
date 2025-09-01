@@ -18,11 +18,11 @@ body {
    margin: 0 auto;
    padding: 32px 80px 246px 80px;
     width: 100%;
-    align: center;
-    max-width: 1120px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    scroll-behavior: smooth;
+    
 
 }
 h1 {
@@ -33,6 +33,15 @@ font-weight: 400;
 line-height: normal;
 }
 h2 {
+color: #3F0D00;
+font-family: NEOPIXEL;
+font-size: 56px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+align-self: stretch;
+}
+h4 {
 font-size: 32px;
 font-style: normal;
 font-weight: 700;
@@ -40,14 +49,38 @@ line-height: normal;
 }
 .intro {
     max-width: 632px;
+    padding-bottom: 80px;;
   
 }
-.maninProjects {
-   display: grid;
+.mainProjects {
+display: grid;
 width: 1120px;
 height: 2000px;
 row-gap: 30px;
 column-gap: 30px;
 grid-template-rows: repeat(6, minmax(0, 1fr));
 grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+.cardgrande {
+    grid-row: 1 / span 3;
+    grid-column: 1 / span 2;
+}
+.otherProjects {
+max-width: 1120px;
+margin-top: 80px;
+display: flex;
+flex-direction: column;
+align-items: stretch;
+gap: 16px;
+align-self: center;
+}
+.otherProjectsCarousel {
+display: grid;
+row-gap: 30px;
+column-gap: 30px;
+grid-template-rows: repeat(1, 368px);
+grid-template-columns: repeat(13, 500px);
+overflow-x: scroll;
+overscroll-behavior-inline: contain;
+padding-bottom: 40px;
 }

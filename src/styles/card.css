@@ -4,14 +4,63 @@
     src: url("public/NEOPIXEL-Regular.otf");
     font-weight: 400;
 }
-* {
-    margin: 0;
-    padding: 0;
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
 }
-card {
-    background-color: blue;
+
+.card {
     border-radius: 24px;
     box-shadow: -10px 10px 40px 0px rgba(0, 0, 0, 0.30), -3px 3px 14px 0px rgba(0, 0, 0, 0.09), -1px 1px 5px 0px rgba(0, 0, 0, 0.04), -0.5px 0.5px 1.8px 0px rgba(0, 0, 0, 0.01);
+
+}
+.cardgrande1 {
+    grid-row: 1 / span 2;
+    grid-column: 1 / span 3;
+    position: relative;
+    overflow: hidden;
+}
+.cardpequeña1 {
+    grid-row: 1 / span 1;
+    grid-column: 4 / span 3;
+    position: relative;
+    overflow: hidden;
+}
+.cardpequeña2 {
+    grid-row: 2 / span 1;
+    grid-column: 4 / span 3;
+    position: relative;
+    overflow: hidden;
+}
+.cardfull {
+    grid-row: 3 / span 2;
+    grid-column: 1 / span 6;
+    position: relative;
+    overflow: hidden;
+}
+.cardgrande2 {
+    grid-row: 5 / span 2;
+    grid-column: 1 / span 3;
+    position: relative;
+    overflow: hidden;
+}
+.cardpequeña3 {
+    grid-row: 5 / span 1;
+    grid-column: 4 / span 3;
+    position: relative;
+    overflow: hidden;
+}
+.cardpequeña4 {
+    grid-row: 6 / span 1;
+    grid-column: 4 / span 3;
+    position: relative;
+    overflow: hidden;
+}
+
+.cardcarousel {
+    position: relative;
+    overflow: hidden;
 }
 h3 {
     font-family: NEOPIXEL;
@@ -19,5 +68,14 @@ h3 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    color: F5F5F5;
+    color: #F5F5F5;
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    max-width: 240px;
+}
+img {
+   height: 100%;
+    width: 100%;
+    border-radius: 24px;
 }

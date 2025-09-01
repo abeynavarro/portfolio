@@ -1,7 +1,10 @@
 ---
 import '../styles/card.css'
-const {image, title, link} = Astro.props;
+const {image, title, link, classCard} = Astro.props;
 ---
-<card href={link} background={image}>
-        <h3>{title}</h3>
-</card>
+<a class={classCard} href={link}>
+<div >
+        <img src={image} alt={title} />
+         <h3>{title}</h3>
+ </div>
+</a>

@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "NEOPIXEL";
+    src: url("../../public/NEOPIXEL-Regular.otf");
+    font-weight: 400;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    z-index: 1000;
+}
+.logo {
+color: #FFB800;
+font-family: NEOPIXEL;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}

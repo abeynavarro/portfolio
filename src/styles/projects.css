@@ -1,0 +1,84 @@
+
+@font-face {
+    font-family: "NEOPIXEL";
+    src: url("../../public/NEOPIXEL-Regular.otf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Space Grotesk";
+    src: url("../../public/SpaceGrotesk-VariableFont_wght.ttf")
+}
+body {
+   margin: 0 auto;
+    width: 100%;
+    scroll-behavior: smooth;
+
+}
+main {
+    max-width: 800px;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+h1 {
+    color: #F5F5F5;
+font-family: NEOPIXEL;
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.BBVA {
+    background-color: #4484F3;
+    color: #F5F5F5;
+}
+a.BBVA {
+    border: 1px solid #F5F5F5;
+}
+.project-meta {
+    display: flex;
+align-items: flex-start;
+gap: 16px;
+align-self: stretch;
+font-size: 24px;
+}
+.project-meta-item {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+flex: 1 0 0;
+}
+.project-intro {
+   font-size: 32px;
+   font-style: normal;
+font-weight: 400;
+    line-height: normal;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+h2 {
+    font-family: NEOPIXEL;
+   font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+ol, ul {
+padding-left: 40px;
+}
+li {
+    padding-bottom: 16px;
+}
+slot {
+
+}
+img {
+    width: 100%;
+border-radius: 24px;
+}

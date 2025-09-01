@@ -1,7 +1,8 @@
 ---
 import '../styles/home.css'
-import '../styles/card.css'
 import Card from '../components/card.astro'
+import Navigation from '../components/navigation.astro'
+import '../styles/card.css'
 ---
 
 <html lang="en">
@@ -16,13 +17,39 @@ import Card from '../components/card.astro'
 		<title>ABN portfolio</title>
 	</head>
 	<body>
+		<Navigation/>
 		<div class="intro">
 		<h1>Hola,</h1>
-		<h2>soy Alfonso Bey, diseñador de Producto
-Actualmente estoy creando productos y servicios digitales para Andbank.</h2>
+		<h4>soy Alfonso Bey, diseñador de Producto
+Actualmente estoy creando productos y servicios digitales para Andbank.</h4
+>
 		</div>
 		<div class="mainProjects">
-<Card title = "Andbank" link = "https://www.andbank.com/es/" />
+<Card classCard="card cardgrande1" title = "Programa tu cuenta" link = "/projects/programatucuenta" image = "public/Programa tu cuenta.jpg"/>
+<Card classCard="card cardpequeña1" title = "Momentum Project" link = "/projects/programatucuenta" image = "public/Momentum.jpg"/>
+<Card classCard="card cardpequeña2" title = "The jewellery editor" link = "https://www.andbank.com/es/" image = "public/JED.jpg"/>
+<Card classCard="card cardfull" title = "Myandbank" link = "https://www.andbank.com/es/" image = "public/Myandbank.jpg"/>
+<Card classCard="card cardgrande2" title = "Andbank Wealth" link = "https://www.andbank.com/es/" image = "public/ABW.jpg"/>
+<Card classCard="card cardpequeña3" title = "BBVA My Business" link = "https://www.andbank.com/es/" image = "public/MyBusiness.jpg"/>
+<Card classCard="card cardpequeña4" title = "Cuatrecasas" link = "https://www.andbank.com/es/" image = "public/Cuatrecasas.jpg"/>
+		</div>
+		<div class="otherProjects">
+<h2>Otros proyectos</h2>
+<div class="otherProjectsCarousel">
+<Card classCard="card cardcarousel" title = "BBVA Innovation Center"  image = "public/IC.jpg"/>
+<Card classCard="card cardcarousel" title = "Préstamos BBVA"  image = "public/Préstamos.jpg"/>
+<Card classCard="card cardcarousel" title = "Portal mediador Allianz"  image = "public/Allianz.jpg"/>
+<Card classCard="card cardcarousel" title = "Hipotecas BBVA"  image = "public/Hipotecas.jpg"/>
+<Card classCard="card cardcarousel" title = "App Zurich Santander"  image = "public/Zurich.jpg"/>
+<Card classCard="card cardcarousel" title = "BBVA Francés"  image = "public/Francés.jpg"/>
+<Card classCard="card cardcarousel" title = "Innovation Edge"  image = "public/Innovation Edge.jpg"/>
+<Card classCard="card cardcarousel" title = "Web TyC BBVA"  image = "public/TyC.jpg"/>
+<Card classCard="card cardcarousel" title = "App recetas Nestlé"  image = "public/Nestlé.jpg"/>
+<Card classCard="card cardcarousel" title = "Web accionistas BBVA"  image = "public/Accionistas.jpg"/>
+<Card classCard="card cardcarousel" title = "ING com. interna"  image = "public/ING.jpg"/>
+<Card classCard="card cardcarousel" title = "Seguros BBVA"  image = "public/Seguros.jpg"/>
+<Card classCard="card cardcarousel" title = "BBVA Open Talent"  image = "public/Open Talent.jpg"/>
+
 		</div>
 	</body>
 </html>

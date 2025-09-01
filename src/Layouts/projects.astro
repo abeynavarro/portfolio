@@ -1,0 +1,39 @@
+---
+import Button from '../components/button.astro';
+import Navigation from '../components/navigation.astro';
+import '../styles/projects.css';
+import type { MarkdownLayoutProps } from 'astro';
+type Props = MarkdownLayoutProps <{
+  // Define frontmatter props here
+  title: string;
+  client: string;
+  rol: string;
+  year: string;
+  link: string;
+intro: string;}>;
+// Now, `frontmatter`, `url`, and other Markdown layout properties
+// are accessible with type safety
+const { frontmatter, url } = Astro.props;
+---
+<html lang="es">
+  <head>
+<meta charset="utf-8" />
+    <title>{frontmatter.title}</title>
+  </head>
+<body class={frontmatter.client}>
+    <Navigation />
+  <main>
+  <h1>{frontmatter.title}</h1>
+  <div class="project-meta">
+     <div class="project-meta-item"> Cliente:</br> {frontmatter.client} </div>
+     <div class="project-meta-item"> Rol: </br>  {frontmatter.rol} </div>
+     <div class="project-meta-item"> Año de inicio: </br>  {frontmatter.year}</div>
+     <Button link={frontmatter.link} class={frontmatter.client}/>
+    </div>
+  <div class="project-intro">
+      <p>{frontmatter.intro}</p>
+  </div>
+  <slot />
+  </main>
+</body>
+</html>

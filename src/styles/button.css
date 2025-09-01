@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "NEOPIXEL";
+    src: url("public/NEOPIXEL-Regular.otf");
+    font-weight: 400;
+}
+[role="button"] {
+    border-radius: 40px;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-family: NEOPIXEL;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 4px;
+    text-decoration: none;
+    width: fit-content;
+}
+ 
