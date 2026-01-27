@@ -12,8 +12,24 @@
 
 .card {
     border-radius: 24px;
-    box-shadow: -10px 10px 40px 0px rgba(0, 0, 0, 0.30), -3px 3px 14px 0px rgba(0, 0, 0, 0.09), -1px 1px 5px 0px rgba(0, 0, 0, 0.04), -0.5px 0.5px 1.8px 0px rgba(0, 0, 0, 0.01);
+    box-shadow: -10px 10px 8px 0px rgba(0, 0, 0, 0.05), -3px 3px 14px 0px rgba(0, 0, 0, 0.09), -1px 1px 5px 0px rgba(0, 0, 0, 0.04), -0.5px 0.5px 1.8px 0px rgba(0, 0, 0, 0.01);
+    will-change: transform; 
+    transform: translateY(0px);
+    transition: transform 0.3s ease;
+    display: flex;
+    text-decoration: none;
+    height: 100%;
+}
 
+.card > div {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.card:hover {
+    transform: translateY(-4px);
+    transition: transform 0.3s ease;
+    cursor: pointer;
 }
 .cardgrande1 {
     grid-row: 1 / span 2;
@@ -61,7 +77,12 @@
 .cardcarousel {
     position: relative;
     overflow: hidden;
+    transform: none;
+     
 }
+.cardcarousel:hover {
+    transform: none;
+    cursor: default;}
 h3 {
     font-family: NEOPIXEL;
     font-size: 48px;
@@ -74,8 +95,59 @@ h3 {
     bottom: 16px;
     max-width: 240px;
 }
-img {
-   height: 100%;
+.card img {
     width: 100%;
-    border-radius: 24px;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
+
+/* Tablet */
+@media (max-width: 1024px) and (min-width: 701px) {
+ h3 {
+    font-size: 36px;
+    left: 14px;
+    bottom: 14px;
+    max-width: 200px;
+ }
+ .card {
+    border-radius: 20px;
+ }
+}
+
+/* Mobile */
+@media (max-width: 700px) 
+{
+ .card {
+    border-radius: 24px;
+ }
+ h3 {
+    font-size: 28px;
+    left: 12px;
+    bottom: 12px;
+    max-width: 180px;
+ }
+    .cardgrande1 {grid-row: 1 / span 1;
+        grid-column: 1 / span 6;}
+    .cardpequeña1 {
+    grid-row: 2 / span 1;
+ grid-column: 1 / span 6;}
+   
+ .cardpequeña2 {
+    grid-row: 3 / span 1;
+ grid-column: 1 / span 6;}
+   
+ .cardfull {
+    grid-row: 4 / span 1;
+    grid-column: 1 / span 6;}
+    .cardgrande2 {grid-row: 5 / span 1;
+        grid-column: 1 / span 6;}
+    .cardpequeña3 {
+    grid-row: 6 / span 1;
+ grid-column: 1 / span 6;}
+    .cardpequeña4 {
+    grid-row: 7 / span 1;
+ grid-column: 1 / span 6;}
+}
+
+ 

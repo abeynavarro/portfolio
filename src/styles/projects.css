@@ -26,22 +26,72 @@ main {
     gap: 16px;
     font-family: "Space Grotesk", sans-serif;
 }
-
-h1 {
-    color: #F5F5F5;
-font-family: NEOPIXEL;
+h1{
+    font-family: NEOPIXEL;
 font-size: 80px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+
+}
+h1.BBVA {
+    color: #F5F5F5;
+
 }
 .BBVA {
     background-color: #4484F3;
     color: #F5F5F5;
+    fill: #F5F5F5;
 }
 a.BBVA {
     border: 1px solid #F5F5F5;
 }
+h1.JED {
+    color: #1E273F;
+
+}
+.JED {
+    background-color: #FFB800;
+    color: #1E273F;
+     fill: #1E273F;
+}
+a.JED {
+    border: 1px solid #1E273F;
+}
+h1.Myandbank {
+    color: #F5F5F5;
+
+}
+.Myandbank {
+    background-color: #FF3300;
+    color: #F5F5F5;
+    fill: #F5F5F5;
+}
+a.Myadnbank {
+    border: 1px solid #F5F5F5;
+    }
+    h1.Andbank {
+    color: #F5F5F5;
+
+}
+.Andbank {
+    background-color: #FF2110;
+    color: #F5F5F5;
+    fill: #F5F5F5;
+}
+a.Andbank {
+    border: 1px solid #F5F5F5;
+    }
+
+.Cuatrecasas {
+    background-color: #3B3B3B;
+    color: #F5F5F5;
+    fill: #F5F5F5;
+}
+a.Cuatrecasas {
+    border: 1px solid #F5F5F5;
+    }
+
 .project-meta {
     display: flex;
 align-items: flex-start;
