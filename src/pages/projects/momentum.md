@@ -10,7 +10,7 @@ intro: Rediseño de la plataforma de emprendimiento social BBVA Momentum Project
 ## Objetivos
 1. Aumentar el número y la calidad de los participantes del programa.
 
-2. Aumentar y consolidar el impacto de las *start-ups* participantes.
+2. Aumentar y consolidar el impacto de las _start-ups_ participantes.
 
 3. Crear un ecosistema de apoyo al emprendedor social.
 

@@ -25,7 +25,7 @@ En el proceso de definición y diseño participaron distintos tipos de usuarios 
 
 Este proceso estuvo estructurado en tres sesiones de cocreación.
 
-En la primera sesión, trabajamos juntos en el árbol de contenido, la *home* y la *subhome* de área de la nueva intranet de Cuatrecasas. Para ello, los usuarios decidieron qué contenido hacía que su trabajo diario fuera más ágil y qué contenidos eran imprescindibles. Con dicho contenido, trabajamos un *Card Sorting* para definir la nueva arquitectura de información. También mediante prototipado colaborativo se trabajó en la *home*, el menú y la sección de noticias.
+En la primera sesión, trabajamos juntos en el árbol de contenido, la *home* y la *subhome* de área de la nueva intranet de Cuatrecasas. Para ello, los usuarios decidieron qué contenido hacía que su trabajo diario fuera más ágil y qué contenidos eran imprescindibles. Con dicho contenido, trabajamos un _Card Sorting_ para definir la nueva arquitectura de información. También mediante prototipado colaborativo se trabajó en la *home*, el menú y la sección de noticias.
 ![Primer taller de cocreación](../../assets/Cuatrecasas3.png)
 La segunda sesión comenzó con una recapitulación de la sesión anterior y la presentación de un árbol de contenido sobre el que se hizo una nueva iteración buscando la simplificación. Posteriormente, se presentaron los prototipos de algunas pantallas identificadas como relevantes y, por grupos, se deconstruyeron y volvieron a modificarse.
 ![Segundo taller de cocreación](../../assets/Cuatrecasas4.png)
