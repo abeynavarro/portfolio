@@ -5,7 +5,7 @@ client: Myandbank
 rol: Jefe de diseño, diseñador de interacción, diseñador visual
 year: 2022-actualidad
 link: https://myandbank.com/es/
-intro: Jefe de diseño, *research*, cocreación, diseño visual y de interacción para la creación de un neobanco en Andorra y creación de sistema de diseño.
+intro: Jefe de diseño, **research**, cocreación, diseño visual y de interacción para la creación de un neobanco en Andorra y creación de sistema de diseño.
 
 ---
 ## Objetivos
