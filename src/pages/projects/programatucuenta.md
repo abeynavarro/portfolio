@@ -16,7 +16,7 @@ intro: Diseño de interacción y diseño visual de la automatización de tareas 
 3. Automatizar ciertas decisiones para facilitar el ahorro y la gestión de sus actividades financieras diarias.
 
 ![Primera pantalla del onboarding de Programa tu cuenta](../../assets/Programatucuenta1.png)
-## Desafio
+## Desafío
 Crear una herramienta que permita a los usuarios tomar mejores decisiones en sus finanzas. Para ello, creamos un ecosistema de soluciones centradas en:
 
 - Informar. Creamos herramientas para que los usuarios puedan gestionar más fácilmente sus finanzas cotidianas y tomar mejores decisiones.

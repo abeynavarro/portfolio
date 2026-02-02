@@ -5,7 +5,7 @@ client: JED
 rol: Diseñador de interacción
 year: 2014
 link: https://www.thejewelleryeditor.com
-intro: Rediseño del CMS y del front de uno de los principales medios sobre joyas de lujo. 
+intro: Rediseño del CMS y del *front* de uno de los principales medios sobre joyas de lujo. 
 
 ---
 ## Objetivos
@@ -15,7 +15,7 @@ intro: Rediseño del CMS y del front de uno de los principales medios sobre joya
 4. Reducir la curva de aprendizaje del CMS.
 
 ![Home móvil JED](../../assets/Jed1.png)
-## Desafio
+## Desafío
 The Jewellery Editor necesitaba un rediseño para estar a la altura del mercado al que se dirigía. Además, presentaba grandes carencias de usabilidad tanto para los visitantes como para los editores y redactores.
 ![Home escritorio JED](../../assets/Jed2.png)
 
@@ -29,12 +29,12 @@ Una vez finalizada la investigación, trabajamos conjuntamente con el equipo de 
 
 En paralelo, trabajamos con el equipo de editores a través de un trabajo de inversión con el objetivo de conocer en profundidad de su forma de desarrollar las diferentes piezas de contenido y diseñar el nuevo *back-office* centrados en hacer posible una mayor agilidad a la hora de la introducir el contenido.
 
-También definimos la estrategia comercial de la web trabajando en los diferentes formatos publicitarios que podían ofrecer a anunciantes. No solo en publicidad *display* si no también en contenido patrocinado.
+También definimos la estrategia comercial de la web trabajando en los diferentes formatos publicitarios que podían ofrecer a anunciantes. No solo en publicidad *display*, si no también en contenido patrocinado.
 ## Aprendizajes del proyecto
 
-- - El equilibrio entre ofrecer una experiencia de calidad y la capacidad de la web de generar ingresos: parte de nuestra tarea como diseñadores de interacción fue crear los formatos publicitarios y editoriales que les permitiesen ser rentables.
-- Pensar no solo en la experiencia de los usuarios que consumen el contenido, sino también en la de los creadores. Crean más de veinte nuevos contenidos a la semana, en diferentes países, y, en dicha creación, participan una gran variedad de contribuidores.
+- El equilibrio entre ofrecer una experiencia de calidad y la capacidad de la web de generar ingresos: parte de nuestra tarea como diseñadores de interacción fue crear los formatos publicitarios y editoriales que les permitiesen ser rentables.
+- Pensar no solo en la experiencia de los usuarios que consumen el contenido, sino también en la de los creadores. Crean más de veinte nuevos contenidos a la semana en diferentes países, y, en dicha creación, participan una gran variedad de contribuidores.
 - Trabajar con tal cantidad de contenido editorial exige una arquitectura de información flexible y muy bien estudiada para que al usuario le resulte más fácil encontrar la aguja en el pajar.
 
 ## ¿Qué es JED?
-Una revista de lujo online y una plataforma de redes sociales fundada en 2010 que se centra por completo en joyas y relojes de lujo, y que tiene un impacto mundial de 2,8 millones de usuarios al mes. 
+Una revista de lujo *online* y una plataforma de redes sociales fundada en 2010 que se centra por completo en joyas y relojes de lujo, y que tiene un impacto mundial de 2,8 millones de usuarios al mes. 

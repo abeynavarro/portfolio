@@ -10,13 +10,13 @@ intro: Rediseño de la plataforma de emprendimiento social BBVA Momentum Project
 ## Objetivos
 1. Aumentar el número y la calidad de los participantes del programa.
 
-2. Aumentar y consolidar el impacto de las start-ups participantes.
+2. Aumentar y consolidar el impacto de las *start-ups* participantes.
 
 3. Crear un ecosistema de apoyo al emprendedor social.
 
 ![Pantalla de proyecto en Momentum](../../assets/Momentum1.png)
-## Desafio
-rediseñar la plataforma del programa Momentum Project para aumentar el peso del emprendimiento social en la sociedad.
+## Desafío
+Rediseñar la plataforma del programa Momentum Project para aumentar el peso del emprendimiento social en la sociedad.
 
 ![Home momentum](../../assets/Momentum2.png)
 
@@ -26,7 +26,7 @@ Durante este proyecto, diseñamos y construimos la nueva web de BBVA Momentum Pr
 
 El proyecto lo dividimos en dos fases:
 
-- En la primera, se abordó la parte pública de la web, donde se comunicaban las características y el funcionamiento del programa y se llevaba a cabo el registro de proyectos. En los formularios de registro, se puso el foco además de en la usabilidad y en la accesibilidad del mismo. También desarrollamos toda la estrategia de comunicación entre Momentum y los proyectos registrados durante toda la vida del programa.
+- En la primera, se abordó la parte pública de la web, donde se comunicaban las características y el funcionamiento del programa y se llevaba a cabo el registro de proyectos. En los formularios de registro, se puso el foco en la usabilidad y en la accesibilidad del mismo. También desarrollamos toda la estrategia de comunicación entre Momentum y los proyectos registrados durante toda la vida del programa.
 - En la segunda, se diseñó y maquetó toda la parte privada del programa. Esta sección tenía dos vertientes: la parte privada para emprendedores, a través de la cual recibirían el *mentoring* y la formación los proyectos seleccionados, y la parte privada para mentores y jueces, donde, en primer lugar, emitirían sus valoraciones sobre los proyectos registrados, seleccionarían los proyectos clasificados y desarrollarían todo el *mentoring* con dichos proyectos.
 ![Visualización de proyectos](../../assets/Momentum5.png)
 
