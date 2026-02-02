@@ -29,7 +29,7 @@ Una vez extraídos los resultados de la investigación, se lo presentamos a los 
 
 En la primera, mediante un proceso de convergencia-divergencia, extrajimos todas las posibles funcionalidades que podían aportar valor a este tipo de usuarios a partir de los resultados de la investigación.
 
-En una segunda sesión, mediante una matriz esfuerzo-valor, jerarquizamos las funcionalidades para la construcción de un primer MVP y la posterior hoja de ruta **de evolución hacia un servicio completo.
+En una segunda sesión, mediante una matriz esfuerzo-valor, jerarquizamos las funcionalidades para la construcción de un primer MVP y la posterior hoja de ruta de evolución hacia un servicio completo.
 
 En una tercera sesión, cocreamos junto con los *stakeholders* el primer MVP. Con el resultado de esta tercera sesión, prototipamos un primer MVP estratégico y trasladamos el conocimiento al equipo interno de BBVA para su construcción y evolución.
 
