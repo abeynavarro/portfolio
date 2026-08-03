@@ -9,5 +9,11 @@ content:
         type: string
       - name: client
         type: string
+      - name: rol
+        type: string
+      - name: year
+        type: string
+      - name: intro
+        type: string
       - name: body
         type: rich-text
