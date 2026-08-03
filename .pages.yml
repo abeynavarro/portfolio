@@ -14,6 +14,8 @@ content:
       - name: year
         type: string
       - name: intro
-        type: string
+        type: text
       - name: body
         type: rich-text
+
+    filename: {title}.md
