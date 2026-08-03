@@ -1,4 +1,4 @@
-media: public/projects
+media: src/assets
 content:
   - name: projects
     label: projects
