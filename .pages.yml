@@ -1,0 +1,11 @@
+media: public/projects
+content:
+  - name: projects
+    label: projects
+    type: collection
+    path: src/pages/projects
+    fields:
+      - name: title
+        type: string
+      - name: body
+        type: rich-text
